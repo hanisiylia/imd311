@@ -1,0 +1,122 @@
+<html> 
+<head>
+<title>gallery</title> 
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<center> 
+<br>
+<a href="index.html"><img src="image/home.png"></a>
+<a href="biodata.html"><img src="image/biodata.png"></a>
+<a href="experience.html"><img src="image/experience.png"></a>
+<a href="education.html"><img src="image/education.png"></a>
+<a href="family.html"><img src="image/family.png"></a>
+<a href="friends.html"><img src="image/friends.png"></a>
+
+<br>
+<br>
+<br>
+<br>
+
+<font color=#4B382A <font face="Times New Romance"><font size="40">
+MY GALLERY</font>
+<hr>
+<br>
+
+<h1><font color=#4B382A <font face="Times New Romance"><font size="4">
+"Memories are timeless treasures of the heart."
+<br>
+<br>
+
+<h1><font color=#4B382A <font face="Times New Romance"><font size="4">
+VIDEO</h1>
+<video class="mySlides" src="video/cyberquest.mp4"video width="300" height="200" controls></video>
+<video class="mySlides" src="video/homestay.mp4"video width="300" height="200"controls></video>
+<video class="mySlides" src="video/view.mp4"video width="200" height="200" controls></video>
+<video class="mySlides" src="video/me.mp4"video width="300" height="200" controls></video>
+<br>
+<br>
+<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
+<br>
+<br>
+<br>
+
+<h1><font color=#4B382A <font face="Times New Romance"><font size="4">
+PHOTOS</h1>
+<div class="row">
+  <div class="column">
+    <img src="image/1.jpg" style= "width:20%">
+    <img src="image/2.jpg" style= "width:20%">
+    <img src="image/3.jpg" style= "width:20%"> 
+    <img src="image/4.jpg" style= "width:20%">
+    <img src="image/5.jpg" style= "width:20%">
+    <img src="image/6.jpg" style= "width:20%">
+    <img src="image/7.jpg" style= "width:20%">
+    <img src="image/8.jpg" style="width:20%">
+  </div>
+
+  <div class="column">
+    <img src="image/9.jpg" style="width:20%">
+    <img src="image/10.jpg" style="width:20%">
+    <img src="image/11.jpg" style="width:20%">
+    <img src="image/12.jpg" style="width:20%">
+    <img src="image/13.jpg" style="width:20%">
+    <img src="image/14.jpg" style="width:20%">
+    <img src="image/15.jpg" style="width:20%">
+    <img src="image/16.jpg" style="width:20%">
+  </div>
+
+  <div class="column">
+    <img src="image/17.jpg" style="width:20%">
+    <img src="image/18.jpg" style="width:20%">
+    <img src="image/19.jpg" style="width:20%">
+    <img src="image/20.jpg" style="width:20%">
+    <img src="image/21.jpg" style="width:20%">
+    <img src="image/22.jpg" style="width:20%">
+    <img src="image/23.jpg" style="width:20%">
+    <img src="image/24.jpg" style="width:20%">
+  </div>
+
+  <div class="column">
+    <img src="image/25.jpg" style="width:20%">
+    <img src="image/26.jpg" style="width:20%">
+    <img src="image/27.jpg" style="width:20%">
+    <img src="image/28.jpg" style="width:20%">
+    <img src="image/29.jpg" style="width:20%">
+    <img src="image/30.jpg" style="width:20%">
+    <img src="image/31.jpg" style="width:20%">
+    <img src="image/32.jpg" style="width:20%">
+  </div>
+
+<br>
+<br>
+<br>
+<br>
+
+<font color=#4B382A<font face="Cascadia Code SemiBold"><font size="2">
+Copyright &copy; 2023 by 
+hanisiylia</font>
+
+</body>
+</html>
